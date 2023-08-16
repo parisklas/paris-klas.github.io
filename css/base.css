@@ -1,0 +1,65 @@
+body {
+    font-family: Veranda, sans-serif;
+}
+
+#header {
+    background-color: #C97959;
+    color: whitesmoke;
+    padding: 30px;
+    text-align: center
+}
+
+h2 {
+    color: #4C3549;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Styling for Nav bar: */
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #586F6B;
+    font-weight: bold;
+    text-align: center;  
+}
+
+.nav li {
+    float: left;
+    padding: 14px 16px;
+    color: whitesmoke;
+}
+
+.nav a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.nav li a:hover {
+    background-color: #4C3549;
+}
+
+.active {
+    background-color: #4C3549;
+}
+
+/* Styling for Images */
+
+img {
+    border: solid 3px #4C3549;
+}
+
+.gridContent {
+            width: 73%;
+            margin-left: 20px;
+            height: 70%;
+            padding: 2px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
